@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-09-17T15:57:25 IST" name="Demo Suite" finished-at="2020-09-17T15:59:02 IST" duration-ms="96955">
+    <groups>
+    </groups>
+    <test started-at="2020-09-17T15:57:25 IST" name="Regression Test" finished-at="2020-09-17T15:59:02 IST" duration-ms="96955">
+      <class name="tests.Login_Test">
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:tests.Login_Test@7b9a4292]" started-at="2020-09-17T15:57:25 IST" name="LaunchBrowser" finished-at="2020-09-17T15:57:35 IST" duration-ms="9787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="loginSuccessful_TC()[pri:0, instance:tests.Login_Test@7b9a4292]" started-at="2020-09-17T15:57:35 IST" name="loginSuccessful_TC" finished-at="2020-09-17T15:57:44 IST" duration-ms="8602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccessful_TC -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.Login_Test@7b9a4292]" started-at="2020-09-17T15:57:44 IST" name="closeBrowser" finished-at="2020-09-17T15:57:45 IST" duration-ms="834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:tests.Login_Test@7b9a4292]" started-at="2020-09-17T15:57:45 IST" name="LaunchBrowser" finished-at="2020-09-17T15:57:51 IST" duration-ms="6610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="logoutSuccessful_TC()[pri:0, instance:tests.Login_Test@7b9a4292]" started-at="2020-09-17T15:57:51 IST" name="logoutSuccessful_TC" finished-at="2020-09-17T15:57:58 IST" duration-ms="6411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutSuccessful_TC -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.Login_Test@7b9a4292]" started-at="2020-09-17T15:57:58 IST" name="closeBrowser" finished-at="2020-09-17T15:57:59 IST" duration-ms="751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.Login_Test -->
+      <class name="tests.Cart_Test">
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:tests.Cart_Test@4cc451f2]" started-at="2020-09-17T15:58:41 IST" name="LaunchBrowser" finished-at="2020-09-17T15:58:48 IST" duration-ms="6970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="checkout_TC()[pri:0, instance:tests.Cart_Test@4cc451f2]" started-at="2020-09-17T15:58:48 IST" name="checkout_TC" finished-at="2020-09-17T15:59:02 IST" duration-ms="13363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout_TC -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.Cart_Test@4cc451f2]" started-at="2020-09-17T15:59:02 IST" name="closeBrowser" finished-at="2020-09-17T15:59:02 IST" duration-ms="809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.Cart_Test -->
+      <class name="tests.Product_Test">
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:tests.Product_Test@4a94ee4]" started-at="2020-09-17T15:57:59 IST" name="LaunchBrowser" finished-at="2020-09-17T15:58:05 IST" duration-ms="6971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="RemoveProductFromCart_TC()[pri:0, instance:tests.Product_Test@4a94ee4]" started-at="2020-09-17T15:58:05 IST" name="RemoveProductFromCart_TC" finished-at="2020-09-17T15:58:18 IST" duration-ms="12891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveProductFromCart_TC -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.Product_Test@4a94ee4]" started-at="2020-09-17T15:58:18 IST" name="closeBrowser" finished-at="2020-09-17T15:58:19 IST" duration-ms="796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:tests.Product_Test@4a94ee4]" started-at="2020-09-17T15:58:19 IST" name="LaunchBrowser" finished-at="2020-09-17T15:58:26 IST" duration-ms="6967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="addProductToCart_TC()[pri:0, instance:tests.Product_Test@4a94ee4]" started-at="2020-09-17T15:58:26 IST" name="addProductToCart_TC" finished-at="2020-09-17T15:58:40 IST" duration-ms="14305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCart_TC -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.Product_Test@4a94ee4]" started-at="2020-09-17T15:58:40 IST" name="closeBrowser" finished-at="2020-09-17T15:58:41 IST" duration-ms="778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.Product_Test -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- Demo Suite -->
+</testng-results>
